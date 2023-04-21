@@ -1,0 +1,16 @@
+<!-- <p>listing-detail-page works!</p> -->
+
+<div class="constnt-box" *ngIf="!isLoading">
+    <p>This listing has been viewed {{listing.views}} times</p>
+    <a routerLink="/listings"><button>
+            Back
+    </button></a>
+    <p>Product Id: -{{listing.id}}</p>
+    <h2>Product Name: {{listing.name}}</h2>
+    <p>{{listing.description}}</p>
+    <p>{{listing.price}}</p>
+    <a routerLink="/contact/{{listing.id}}"><button>Contact</button></a>
+</div>
+<div class="content-box" *ngIf="isLoading">
+    <h2>Loading...</h2>
+</div>
