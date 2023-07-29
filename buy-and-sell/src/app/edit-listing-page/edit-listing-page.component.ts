@@ -28,9 +28,9 @@ export class EditListingPageComponent {
   ){}
 
 
-  onSubmit({name, desc, price}): void{
+  onSubmit({name, description, price}): void{
     this.listingService.editListing(
-      this.listing.id, name, desc, price
+      this.listing.id, name, description, price
     ).subscribe(()=>{
       alert('Saving changes in the list');    
       this.Router.navigateByUrl('/my-listings')

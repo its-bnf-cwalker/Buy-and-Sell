@@ -20,13 +20,13 @@ export class ListingDataPageComponent {
 
 
   name: string = '';
-  desc: string = '';
+  description: string = '';
   price: string = '';
 
 
   ngOnInit(){
     this.name = this.currentName;
-    this.desc = this.currentDesc;
+    this.description = this.currentDesc;
     this.price = this.currentPrice;
   }
 
@@ -38,7 +38,7 @@ export class ListingDataPageComponent {
    this.onSubmit.emit({
       id: null!,
       name: this.name,
-      desc: this.desc,
+      description: this.description,
       price: this.price,
       views: 0,
    })

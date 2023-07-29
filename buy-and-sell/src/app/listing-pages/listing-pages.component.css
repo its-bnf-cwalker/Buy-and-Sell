@@ -1,0 +1,37 @@
+.content-box{
+    background-color: #EEE;
+    padding: 16px;
+    /* position: relative; */
+    margin: 16px;
+    border-radius: 10px;
+    border-color: black;
+    align-content: center;
+    text-align: center;
+
+}
+
+.content-wrap{
+    align-items: center;
+    height: 10%;
+    width: 60%;
+    margin: 0 auto;
+    padding: 16px;
+    
+}
+
+.data-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    block-size: 80px;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center; 
+    color: black;
+    font-size: 20px;
+    
+
+}

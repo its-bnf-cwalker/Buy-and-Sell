@@ -18,8 +18,8 @@ export class NewListingPageComponent {
     private listingService: ListingsService,
   ){}
 
-  onSubmit({name, desc, price}): void{
-    this.listingService.createListing(name, desc, price)
+  onSubmit({name, description, price}): void{
+    this.listingService.createListing(name, description, price)
     .subscribe(()=>{
       alert('Creating a new list...');
       this.router.navigateByUrl('/my-listings');

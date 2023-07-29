@@ -3,7 +3,7 @@
     <app-listing-data-page 
     buttonText="Save Changes" (onSubmit)="onSubmit($event)"
     [currentName]="listing.name"
-    [currentDesc]="listing.desc"
+    [currentDesc]="listing.description"
     [currentPrice]="listing.price"></app-listing-data-page>
 </div>
 <div class="content-box" *ngIf="!listing">

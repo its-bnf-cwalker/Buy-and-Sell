@@ -1,8 +1,13 @@
 <!-- <p>listing-pages works!</p> -->
 <div>
-    <div class="content-box" *ngFor="let listing of listings">
-        <a routerLink="/listings/{{listing.id}}">
+    <div class="content-box" *ngIf="!listings">
+        There is no list in bucket
+    </div>
+    <div class="content-box" *ngIf="listings">
+        <div class="content-wrap" *ngFor="let listing of listings">
+        <a class="data-wrap" routerLink="/listings/{{listing.id}}">
             {{listing.name}} - ${{listing.price}}
         </a>
+    </div>
     </div>
 </div>
