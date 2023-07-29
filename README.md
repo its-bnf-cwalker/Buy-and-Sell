@@ -1,9 +1,9 @@
 
 # Buy-and-Sell
 
-Buy and sell is a lite version of OLX which help to connect the user from different part of the world to exchange their goods and services
+Buy and sell is a lite version of OLX which help to connect user from different part of the world to exchange their goods and services
 
-If any user want to sell his/her goods he/she can create a post about it with brief desciption which can be edited or deleted according to the goods owner and if any other user is interested in the good he/she can contact with the owner to exchange the goods at the suitable price
+If any user wants to sell his/her goods he/she can create a post about it with a brief description which can be edited or deleted according to the owner of the goods and if any other user is interested in the good he/she can contact the owner to exchange the goods at the suitable price
 
 
 ## 🛠 Skills
